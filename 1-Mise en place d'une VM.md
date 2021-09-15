@@ -104,10 +104,12 @@ Une fois tout cela installé, il faudra lancer la machine virtuel et suivre les 
 ## **Etape n°14**
 
 - Choisir "/dev/sda" puis appuyer sur entrer
+
 ![](Image/etape14.PNG)
 
 ## **Etape finale**
 - Installation finit !!!
+
 ![](Image/etapeFinal.PNG)
 
 
