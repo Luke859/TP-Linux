@@ -10,7 +10,115 @@ Une **machine virtuelle** ou **VM** est un environnement entièrement virtualis�
 
 ---
 
-Pour la mise en place de la VM, nous allons utiliser VMWare :
+## **L'installation**
+
+
+-Pour la mise en place de la VM, nous allons utiliser VMWare :
+
+- Qui ce presente ainsi :
+
+![](Image/VMWare.PNG)
+
+Nous allons premièrement créer une nouvelle machine avec l'ISO suivant qui est Debian 11 sous Linux.
+
+Ici pour télécharger l'ISO -> https://lecrabeinfo.net/telecharger/debian-11-x64
+
+Une fois tout cela installé, il faudra lancer la machine virtuel et suivre les étapes une par une.
+
+## **Etape n°1**
+
+- Donner un nom a votre machine 
+
+![](Image/etape1.PNG)
+
+## **Etape n°2**
+
+- le domaine sera vide, appuyer sur continuer
+
+![](Image/etape2.PNG)
+
+## **Etape n°3**
+
+- Il faudra créer un mot de passe pour la machine et répéter cette démarche 2 fois
+
+![](Image/etape3.PNG)
+
+## **Etape n°4**
+
+- Choississer le premier de l'image ci-dessous
+
+![](Image/etape4.PNG)
+
+## **Etape n°5**
+
+- Appui sur entrer
+
+![](Image/etape5.PNG)
+
+## **Etape n°6**
+
+- Choisit "Terminer le partitionnement et appliquer les changements"
+
+![](Image/etape6.PNG)
+
+## **Etape n°7 et 8**
+
+- Il faudra choisir "OUI" pour les 2 
+
+![](Image/etape7.PNG)
+![](Image/etape8.PNG)
+
+## **Etape n°9**
+
+- Il faudra choisir "deb.debian.org" donc celui qui est surligner 
+
+![](Image/etape9.PNG)
+
+## **Etape n°10**
+
+- le mandataire HHTP sera vide, appuyer sur continuer
+
+![](Image/etape10.PNG)
+
+## **Etape n°10**
+
+- le mandataire HHTP sera vide, appuyer sur continuer
+
+![](Image/etape10.PNG)
+
+## **Etape n°11**
+- Il faudra dire "non" à cette étape 
+
+## **Etape n°12**
+
+- Une étape importante, puisqu'il faudra décocher les 2 premiers logiciels en **appuyant sur la barre "espace"** puis appuyer sur entrer.
+
+![](Image/etape12.PNG)
+
+## **Etape n°13**
+
+- Choisir "oui" puis appuyer sur entrer
+
+![](Image/etape13.PNG)
+
+## **Etape n°14**
+
+- Choisir "/dev/sda" puis appuyer sur entrer
+![](Image/etape14.PNG)
+
+## **Etape finale**
+- Installation finit !!!
+![](Image/etapeFinal.PNG)
+
+
+
+
+
+
+
+
+
+
 
 
 
