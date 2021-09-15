@@ -80,12 +80,6 @@ Une fois tout cela installé, il faudra lancer la machine virtuel et suivre les 
 
 ![](Image/etape10.PNG)
 
-## **Etape n°10**
-
-- le mandataire HHTP sera vide, appuyer sur continuer
-
-![](Image/etape10.PNG)
-
 ## **Etape n°11**
 - Il faudra dire "non" à cette étape 
 
