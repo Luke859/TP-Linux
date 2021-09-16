@@ -131,7 +131,8 @@ Commande -> "**apt install sudo**".
 - Pour trouver l'adresse IP de votre machine il faut taper dans votre console "**ip a**"(orange) cela donnera votre adresse IP (en vert)
 ![](Image/ip.png)
 
-- Sur votre pc windows (poste client) aller dans votre "**invite de commandes**" taper "**ping[ip de votre serveur]**" (en vert).Si vous avez une réponse alors la connection à été établit.![](Image/ping.png)
+- Sur votre pc windows (poste client) aller dans votre "**invite de commandes**" taper "**ping[ip de votre serveur]**" (en vert).Si vous avez une réponse alors la connection à été établit.
+![](Image/ping.png)
 
 **4- La connection avec la clé SSH**
 - Dans l'invite de commandes (windows) tapez "**ssh [nom utilisateur]@[ip de votre serveur]**" pour vous connecter à la clé SSH. Il demandera votre mot de passe entrer le et vous êtes connectez à votre machine.
