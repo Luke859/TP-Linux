@@ -111,7 +111,7 @@ Une fois tout cela installé, il faudra lancer la machine virtuel et suivre les 
 
 # **Mise en place d'une clé SSH**
 
-1- Pour la mise en place de la clé SSH, il faudra ce rendre dans notre VM que l'on a créer précédamment :
+**1- Pour la mise en place de la clé SSH, il faudra ce rendre dans notre VM que l'on a créer précédamment :**
 
 - La VM allumer, vous aurez une console où il vous demandera votre identifiant et votre mot de passe
 
@@ -120,10 +120,23 @@ Une fois tout cela installé, il faudra lancer la machine virtuel et suivre les 
 - On peut voir sur notre image en rouge qu nous sommes bien à la racine "**root**".
 ![](Image/debut.PNG)
 
-2- Nous pouvons mainteant installer les composants nécessaires :
-- ge
+**2- Nous pouvons mainteant installer les composants nécessaires :**
+- Premièrement nous installons "sudo", sudo va nous permettre d'installer la clé SSH car elle nous permet de lancer une commande en tant qu'administrateur, ou en tant qu'autre utilisateur.
+Commande -> "**apt install sudo**".
+
+- Installation de la commande SSH avec "**sudo apt install openssh-server**".
 ![](Image/install.PNG)
 
+**3- Lancer un ping du poste client vers la VM**
+- Pour trouver l'adresse IP de votre machine il faut taper dans votre console "**ip a**"(orange) cela donnera votre adresse IP (en vert)
+![](Image/ip.PNG)
+
+- Sur votre pc windows (poste client) aller dans votre "**invite de commandes**" taper "**ping[ip de votre serveur]**" (en vert). Si vous avez une reponse alors la connection à été établit.
+![](Image/ping.PNG)
+
+**4- La connection avec la clé SSH**
+- Dans l'invite de commandes (windows) tapez "**ssh [nom utilisateur]@[ip de votre serveur]**" pour vous connecter à la clé SSH. Il demandera votre mot de passe entrer le et vous êtes connectez à votre machine.
+![](Image/ssh.PNG)
 
 
 
