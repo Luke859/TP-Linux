@@ -119,6 +119,40 @@ Si votre installation a bien été accomplie vous aurez cette page qui s'affiche
 
 ![](Image/glpi3.PNG)
 
--Ici nous devons vérifier que tout les paquets ont bien installés, si ils sont bien installés appuyer sur "continuer": 
+- Ici nous devons vérifier que tout les paquets ont bien installés, si ils sont bien installés appuyer sur "continuer" : 
 
 ![](Image/glpi4.PNG)
+
+- Précedemment nous avons créée une base de données avec MariaDB, il faut donc asssocier les infos (utilisateurs, mot de passe) mit dans la base de données sur GLPI.
+- Ici il faudra mettre :
+
+>Serveur -> localhost
+
+>utilisateur -> glpi
+
+>mot de passe -> glpi
+- Appuyer sur "continuer" :
+
+![](Image/glpi5.PNG)
+
+- La page ci-dessous il faut choisir la base données en "**glpidb**" :
+- cliquer une seule fois sur "**continuer**" sinon il peut y avoir des problèmes tel que la base de données ne ce créer pas ou que la page devient blanche.
+
+![](Image/glpi6.PNG)
+
+- La base de données à bien été synchronisée avec le serveur GLPI ! Appuyer sur "**continuer**" :
+
+![](Image/glpi7.PNG)
+
+- Les étapes 4 et 5 il faudra juste appuyer sur "**continuer**".
+
+<br/>
+
+- L'installation de GLPI est un succèss et est terminé ! 
+- Il vous donne aussi des identifiants et mot de passe par défaut.
+
+![](Image/glpi8.PNG)
+
+- Une fois que vous avez cliquer sur "**Utiliser GLPI**", vous avez désormais accès à la page de connexion du serveur où il faudra rentrer son identifiant et mot de passe :
+
+![](Image/glpi9.PNG)
