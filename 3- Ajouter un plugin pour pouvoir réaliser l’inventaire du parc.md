@@ -54,4 +54,4 @@ Pour linstallation de Fusion Inventory sur le web, il faut retourner sur GLPI et
 - On pourra constater que Fusion Inventory est bien installer 
 - Appuyer sur le bouton activer et votre Fusion Inventory est près pour l'utilisation :
 
-![](Image/fv2.png)
+![](Image/fv2.PNG)
