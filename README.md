@@ -15,7 +15,7 @@ TP donné par notre prof -> **Clémence Caribaux**
 1- [Mise en place d'une VM (Machine Virtuel)](https://github.com/Luke859/TP-Linux/blob/main/1-Mise%20en%20place%20d'une%20VM.md)
 - Configuration réseau 
 - accès internet 
-- SSH
+- [Clé SSH](https://github.com/Luke859/TP-Linux/blob/main/1-Mise%20en%20place%20d'une%20VM.md#mise-en-place-dune-cl%C3%A9-ssh)
 
 2- [Configurer les services réseaux]()
 - Adresse IP
