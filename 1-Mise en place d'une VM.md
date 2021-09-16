@@ -106,6 +106,23 @@ Une fois tout cela installé, il faudra lancer la machine virtuel et suivre les 
 
 ![](Image/etapeFinal.PNG)
 
+---
+---
+
+# **Mise en place d'une clé SSH**
+
+1- Pour la mise en place de la clé SSH, il faudra ce rendre dans notre VM que l'on a créer précédamment :
+
+- La VM allumer, vous aurez une console où il vous demandera votre identifiant et votre mot de passe
+
+- Il faudra ce rendre à la **racine** de la console pour pouvoir installer les composants pour la clé SSH, en fesant "**su**" puis inscrire votre mot de passe 
+
+- On peut voir sur notre image en rouge qu nous sommes bien à la racine "**root**".
+![](Image/debut.PNG)
+
+2- Nous pouvons mainteant installer les composants nécessaires :
+- ge
+![](Image/install.PNG)
 
 
 
