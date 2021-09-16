@@ -10,7 +10,7 @@ Une **machine virtuelle** ou **VM** est un environnement enti√®rement virtualis√
 
 ---
 
-## **L'installation**
+## **L'installation de la VM**
 
 
 -Pour la mise en place de la VM, nous allons utiliser VMWare :

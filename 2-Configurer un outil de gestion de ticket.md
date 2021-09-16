@@ -8,8 +8,15 @@
 
 **GLPI** est un logiciel libre de gestion des services informatiques et de gestion des services d'assistance. Il a été conçu pour gérer tous les problèmes de gestion d’actifs, de la gestion des composants matériels et des inventaires logiciels à la gestion du helpdesk utilisateur.
 
+<br/>
 
-### **L'installation des pré-requis sur notre machine** : 
+---
+
+## **L'installation des pré-requis sur notre machine** : 
+
+---
+
+<br/>
 
 -Tout d'abord nous devons installer des pré-requis avant de passer à l'installation de GLPI :
 
@@ -75,7 +82,11 @@ MariaDB [(none)]> quit;
 ```
 <br/>
 
-### **L'installation de GLPI en ligne de commande** :
+---
+
+## **L'installation de GLPI en ligne de commande** :
+
+---
 <br/>
 
 Voici les commandes que j'ai utilisé pour installer GLPI en ligne de commande  :
@@ -96,7 +107,9 @@ chown -R www-data /var/www/html/glpi/
 ```
 <br/>
 
-### **L'installation de GLPI sur le web** :
+---
+## **Configuration de GLPI sur le web** :
+---
 
 <br/>
 
