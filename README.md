@@ -36,5 +36,9 @@ TP donné par notre prof -> **Clémence Caribaux**
 - A quelle fréquence me conseillez vous de réaliser une sauvegarde sur une base de données en entreprise ?
 - Quel type de sauvegarde choisir ?
 
+6- [Axes d'améliorations](https://github.com/Luke859/TP-Linux/blob/main/Axes%20d'am%C3%A9liorations.md)
+
+7- [Conclusion](https://github.com/Luke859/TP-Linux/blob/main/Conclusion.md)
+
 
 
