@@ -1,6 +1,6 @@
 # **Configurer un outil de gestion de ticket**
 
-## 1 -Installer et configurer GLPI 
+## **Installer et configurer GLPI** 
 ---
 
 ### **Qu'est ce que GLPI ?**
@@ -8,11 +8,13 @@
 
 **GLPI** est un logiciel libre de gestion des services informatiques et de gestion des services d'assistance. Il a été conçu pour gérer tous les problèmes de gestion d’actifs, de la gestion des composants matériels et des inventaires logiciels à la gestion du helpdesk utilisateur.
 
+![](Image/glpi.png)
+
 <br/>
 
 ---
 
-## **L'installation des pré-requis sur notre machine** : 
+## **1- L'installation des pré-requis sur notre machine** : 
 
 ---
 
@@ -22,45 +24,46 @@
 
 <br/>
 
--> Installation d'apache 2 
+**-> Installation d'apache 2** 
 ```
 apt-get install apache2 php libapache2-mod-php
 ```
 <br/>
 
--> Installation de PHP (modules PHP requis par Apache et GLPI)
+**-> Installation de PHP (modules PHP requis par Apache et GLPI)**
+- J'ai dû installer un module en plus sinon mon GLPI ne ce lançait pas -> **php-intl** 
 ```
 apt-get install php-imap php-intl php-ldap php-curl php-xmlrpc php-gd php-mysql php-cas
 ```
 
 <br/>
 
--> Installation de Mariadb
+**-> Installation de Mariadb**
 ```
 apt-get install mariadb-server
 ```
 ```
 mysql_secure_installation
 ```
-Répondez "y" à toutes les questions. Quand à la partie mot de passe, ne l'oubliez pas il va nous servire à entrer dans notre compte mariabd.
+Répondez "**y**" à toutes les questions. Quand à la partie mot de passe, ne l'oubliez pas il va nous servire à entrer dans notre compte mariabd.
 
 <br/>
 
--> Installation de modules complémentaires
+**-> Installation de modules complémentaires**
 ```
 apt-get install apcupsd php-apcu
 ```
 
 <br/>
 
--> Redémarage d'apache 
+**-> Redémarage d'apache** 
 ```
 sudo service apache2 restart
 ```
 
 <br/>
 
--> Creation de la base de données qui nous permettra ensuite d’installer GLPI :
+**-> Creation de la base de données qui nous permettra ensuite d’installer GLPI :**
 
 ```
 mysql -u root -p
@@ -84,7 +87,7 @@ MariaDB [(none)]> quit;
 
 ---
 
-## **L'installation de GLPI en ligne de commande** :
+## **2- L'installation de GLPI en ligne de commande** :
 
 ---
 <br/>
@@ -92,7 +95,8 @@ MariaDB [(none)]> quit;
 Voici les commandes que j'ai utilisé pour installer GLPI en ligne de commande  :
 <br/>
 
-- J'ai récuperer les paquets GLPI avec les commandes suivante :
+- J'ai récuperé les paquets GLPI avec les commandes suivante :
+
 ```
 cd /usr/src/
 
@@ -108,7 +112,7 @@ chown -R www-data /var/www/html/glpi/
 <br/>
 
 ---
-## **Configuration de GLPI sur le web** :
+## **3- Configuration de GLPI sur le web** :
 ---
 
 <br/>
@@ -149,7 +153,7 @@ Si votre installation a bien été accomplie vous aurez cette page qui s'affiche
 ![](Image/glpi5.PNG)
 
 - La page ci-dessous il faut choisir la base données en "**glpidb**" :
-- cliquer une seule fois sur "**continuer**" sinon il peut y avoir des problèmes tel que la base de données ne ce créer pas ou que la page devient blanche.
+- Cliquez une seule fois sur "**continuer**" car il peut y avoir un problème de création de base de donnée (message d'erreur) et/ou la page peut devenir blanche.
 
 ![](Image/glpi6.PNG)
 
@@ -166,6 +170,34 @@ Si votre installation a bien été accomplie vous aurez cette page qui s'affiche
 
 ![](Image/glpi8.PNG)
 
-- Une fois que vous avez cliquer sur "**Utiliser GLPI**", vous avez désormais accès à la page de connexion du serveur où il faudra rentrer son identifiant et mot de passe :
+- Une fois que vous avez cliquez sur "**Utiliser GLPI**", vous avez désormais accès à la page de connexion du serveur où il faudra rentrer son identifiant et mot de passe :
 
 ![](Image/glpi9.PNG)
+
+- Voila à quoi ressemble GLPI quand vous vous êtes connectez : 
+
+![](Image/glpi0.PNG)
+
+<br/>
+
+---
+## **4- Ajout d'un utilisateur** :
+---
+
+<br/>
+
+Pour ajouter un utilisateur, il faut ce rendre sur GLPI (sur le web) : Administration > Utilisateurs
+- Appuyez sur **Ajouter utilisateur** (cadre rouge)
+
+![](Image/AJ.png)
+
+- Cette page s'affiche il faudra remplir les cases puis appuyez sur **Ajouter** :
+
+![](Image/Ajout.PNG)
+
+- Retouner sur la page **Administration > Utilisateurs** et il sera possible de voir que l'utilisateur est actif : 
+
+![](Image/preuve.PNG)
+
+
+
