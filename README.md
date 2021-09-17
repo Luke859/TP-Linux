@@ -32,7 +32,9 @@ TP donné par notre prof -> **Clémence Caribaux**
 - Verification de l'installation de Fusion Inventory dans GLPI
 
 5- [Mettre en place une sauvegarde de GLPI]()
-- Configurer une tâche CRON
+- Les différents types de sauvegardes
+- A quelle fréquence me conseillez vous de réaliser une sauvegarde sur une base de données en entreprise ?
+- Quel type de sauvegarde choisir ?
 
 
 
