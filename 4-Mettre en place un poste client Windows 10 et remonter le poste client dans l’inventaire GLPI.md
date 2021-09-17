@@ -47,7 +47,7 @@ Le mien -> http://192.168.47.138/glpi/plugins/fusioninventory/
 - Voila l'installation est terminé !
 
 ---
-## 3- Verification de l'installation de Fusion Inventory et GLPI
+## 3- Verification de l'installation de Fusion Inventory dans GLPI
 ---
 
 </br>
