@@ -55,4 +55,3 @@ En entreprise je conseille de réaliser une sauvegarde de la base de données au
 
 Le type de sauvegarde que je choisirais sera la sauvegarde différentielle car elle est rapide pour les sauvegardes, prend peu de place au niveau du stockage et pour la récupération de données elle est très rapide.
 
-
