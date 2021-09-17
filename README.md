@@ -31,7 +31,7 @@ TP donné par notre prof -> **Clémence Caribaux**
 - Installation et configuration du Fusion Inventory agent
 - Verification de l'installation de Fusion Inventory dans GLPI
 
-5- [Mettre en place une sauvegarde de GLPI]()
+5- [Mettre en place une sauvegarde de GLPI](https://github.com/Luke859/TP-Linux/blob/main/5-Mettre%20en%20place%20un%20esauvegarde%20de%20GLPI.md)
 - Les différents types de sauvegardes
 - A quelle fréquence me conseillez vous de réaliser une sauvegarde sur une base de données en entreprise ?
 - Quel type de sauvegarde choisir ?
